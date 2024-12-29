@@ -1,6 +1,16 @@
 # pyxel-utils
 
+![PyPI - Version](https://img.shields.io/pypi/v/pyxel-utils)
+
 Various utilities for game development with the [pyxel](https://github.com/kitao/pyxel) engine.
+
+## Installation
+
+```bash
+pip install pyxel-utils
+```
+
+## Utilities
 
 ### `blt_topleft`
 
