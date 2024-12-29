@@ -30,3 +30,33 @@ def draw():
     ...
     pyxel_utils.cursor_draw()
 ```
+
+### `point_grid`
+
+Draws a grid of points.
+
+![](examples/grid.png)
+
+Usage:
+
+```python
+import pyxel_utils
+
+def draw():
+    pyxel_utils.point_grid(10, 10, 3)
+```
+
+### `checkerboard`
+
+Draws a checkerboard pattern.
+
+![](examples/checkerboard.png)
+
+Usage:
+
+```python
+import pyxel_utils
+
+def draw():
+    pyxel_utils.checkerboard(5, 9, 10)
+```

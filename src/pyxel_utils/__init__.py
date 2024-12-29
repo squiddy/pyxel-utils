@@ -86,3 +86,22 @@ def text_centered(
     Draws text horizontally centered at the given x, y position.
     """
     pyxel.text(x - (len(text) * pyxel.FONT_WIDTH / 2), y, text, col, font)
+
+
+def point_grid(padding_x: int, padding_y: int, col: int) -> None:
+    """
+    Draw a grid of points with the given padding and color.
+    """
+    for x in range(padding_x, pyxel.width, padding_x):
+        for y in range(padding_y, pyxel.height, padding_y):
+            pyxel.pset(x, y, col)
+
+
+def checkerboard(size: int, col1: int, col2: int) -> None:
+    """
+    Draw a checkerboard pattern with the given size and colors.
+    """
+    for x in range(0, pyxel.width // size + 1):
+        for y in range(0, pyxel.height // size + 1):
+            col = col1 if (x + y) % 2 == 0 else col2
+            pyxel.rect(x * size, y * size, size, size, col)
