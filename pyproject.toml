@@ -1,0 +1,19 @@
+[project]
+name = "pyxel-utils"
+version = "0.1.0"
+description = "Various utilities for game development with pyxel game engine."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Reiner Gerecke" }]
+license = { file = "LICENSE" }
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pyxel>=2.2.9",
+    "ruff>=0.8.4",
+]
