@@ -80,7 +80,7 @@ def cursor_draw(col_bg: int = 0, col_fg: int = 1) -> None:
 
 
 def text_centered(
-    x: int, y: int, text: str, col: int, font: pyxel.Font | None = None
+    x: float, y: float, text: str, col: int, font: pyxel.Font | None = None
 ) -> None:
     """
     Draws text horizontally centered at the given x, y position.

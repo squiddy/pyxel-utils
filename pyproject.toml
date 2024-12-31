@@ -1,6 +1,6 @@
 [project]
 name = "pyxel-utils"
-version = "0.1.0"
+version = "0.1.1"
 description = "Various utilities for game development with pyxel game engine."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -13,8 +13,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.uv]
-dev-dependencies = [
-    "pyxel-reload>=0.2.0",
-    "pyxel>=2.2.9",
-    "ruff>=0.8.4",
-]
+dev-dependencies = ["pyxel-reload>=0.2.0", "pyxel==2.2.10", "ruff>=0.8.4"]

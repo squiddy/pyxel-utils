@@ -36,17 +36,17 @@ wheels = [
 
 [[package]]
 name = "pyxel"
-version = "2.2.9"
+version = "2.2.10"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d4/cb/ccbde5e2704bf539df04d2ed45bce080c0c363877b0986041c3fe8929dcc/pyxel-2.2.9-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:8d734d6e1a1560d3a0e1228e81762388a39903c7f34bcabde8c0b38b72c734a4", size = 3097412 },
-    { url = "https://files.pythonhosted.org/packages/bd/ff/c2dd71eba33dc67af321728049b1e1e56b82ea54786df4ddc7bfd5e32849/pyxel-2.2.9-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:6d2d856e7f05547f58f6807a91a94dac52212d087d518e197589e9aa5e60c851", size = 2926142 },
-    { url = "https://files.pythonhosted.org/packages/eb/49/931cac0ed8244fc445d0be8a3048a78d71eb7d119ac1d23a51a7a4ff6656/pyxel-2.2.9-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:329586089333495b9fb85cb3bd24ad776b41c290e201150e1ca862ad96f1ef9f", size = 2911642 },
-    { url = "https://files.pythonhosted.org/packages/45/22/7824cb91c167e7505431fe807fd0b0bc0b76483bde827e4da6c02c861cb6/pyxel-2.2.9-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:6de9b11f08899a7fa50e1dbf699cfdc23af68f0c088b29cbb364def8727a2794", size = 2918342 },
-    { url = "https://files.pythonhosted.org/packages/1c/85/b90b5898a08b846a9d594c75b79e1bb85aabd893a92154db4d55f6b0c849/pyxel-2.2.9-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:6997b5fde09063fa16614ac75b0b8c14575ca2683702b95690f2e56ab8ea50d8", size = 3161402 },
-    { url = "https://files.pythonhosted.org/packages/6e/62/faf65d0dbfb5ea045513c583eb43a245cbf633590ccbc49f935379b34c1d/pyxel-2.2.9-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:375bb5d24f6dcb211ecb367dd37587dd88ad4009d096df382c02c3cbc857f28e", size = 2973299 },
-    { url = "https://files.pythonhosted.org/packages/d4/58/2a8c0f22f1097c3ea5552fae10fc7be5eb822089adcf97a14864dc56d5af/pyxel-2.2.9-cp38-abi3-win32.whl", hash = "sha256:f734a7d4224db273ac0c3c8702bd5f66957fb0a1501af7d1c1b6e57c6b287c4a", size = 3042271 },
-    { url = "https://files.pythonhosted.org/packages/e9/34/c82c31a347946804a71e5e2ee1d782d86b611a713722e3c30a3fc16ce7fe/pyxel-2.2.9-cp38-abi3-win_amd64.whl", hash = "sha256:9537f48924ece825c7542466038f8afa609207ed9e7eb3d148c1b8dfa48b9e02", size = 3202051 },
+    { url = "https://files.pythonhosted.org/packages/2e/44/cba9db7700ac49f03ef14d5c36ecda8e0053fb2e60aeea9fb80181c8b106/pyxel-2.2.10-cp38-abi3-macosx_10_12_x86_64.whl", hash = "sha256:d73412a40eef07d5f3ecff8cfea8439299130328e91bbe673eebca8782c0cd9a", size = 3144089 },
+    { url = "https://files.pythonhosted.org/packages/f1/52/d5742000378b81640e7d1e0a9c66b2e16e35bfb39f01fec7a5024843f45c/pyxel-2.2.10-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:88836dde1dc33332c9936e2274d8eb0251361d5fc566c1e5337b4c570edcf4ec", size = 2959817 },
+    { url = "https://files.pythonhosted.org/packages/a6/f9/cb54bb0d397dadf77fa719c6dec6d2a3fa623735564a2d48b6b8b8c816cc/pyxel-2.2.10-cp38-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:525fdbe57fe13243fc1db16f3184d95f09aa76d5faa33678bb2cd6f059345693", size = 2935125 },
+    { url = "https://files.pythonhosted.org/packages/7a/38/fe27e9888b2dcdcbe17749a53e22feda292c9c908e243a115284d49489bd/pyxel-2.2.10-cp38-abi3-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:29a3c4c3c0211375c26fe96b01c2a848e62c7b954800f7acb8af17227c5a46b7", size = 2946360 },
+    { url = "https://files.pythonhosted.org/packages/65/ce/e61974ccb13d96a0cb766f72423f51c18ddf6656b05fd33eb02db4c1d0db/pyxel-2.2.10-cp38-abi3-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:829b475f68d10441b752ac0868aef2aed62c8c327537d812c97bd67419dbbca1", size = 3197653 },
+    { url = "https://files.pythonhosted.org/packages/78/eb/ddbdab82a57bb019201a48c5d82972a2c97182623ef0b21e3e642d4e6504/pyxel-2.2.10-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:82bccb152ff3e6f3eadd88878551f53001bbb0d5cba66b38e6f9b080a11c91ce", size = 3002474 },
+    { url = "https://files.pythonhosted.org/packages/f1/82/e5a831902f7ff16868e76782f9a32881d714b63480bb72672a3b6b9718f1/pyxel-2.2.10-cp38-abi3-win32.whl", hash = "sha256:2768403a4628d98c9ff18fcede8068007c3d3cce5dfc56e07ef1d0c1466873e0", size = 3077993 },
+    { url = "https://files.pythonhosted.org/packages/a8/32/26e174631f0034e2715e9e0b26b736ff05ae305786fc0185c57b7e96f06b/pyxel-2.2.10-cp38-abi3-win_amd64.whl", hash = "sha256:58e8fd4653cdee95b17684c05d2d3ceb8df07d0ff8d08f9c572075ff8e8c533f", size = 3230259 },
 ]
 
 [[package]]
@@ -78,7 +78,7 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "pyxel", specifier = ">=2.2.9" },
+    { name = "pyxel", specifier = "==2.2.10" },
     { name = "pyxel-reload", specifier = ">=0.2.0" },
     { name = "ruff", specifier = ">=0.8.4" },
 ]
