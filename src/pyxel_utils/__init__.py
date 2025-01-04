@@ -85,7 +85,8 @@ def text_centered(
     """
     Draws text horizontally centered at the given x, y position.
     """
-    pyxel.text(x - (len(text) * pyxel.FONT_WIDTH / 2), y, text, col, font)
+    text_width = pyxel.FONT_WIDTH * len(text) if font is None else font.text_width(text)
+    pyxel.text(x - (text_width / 2), y, text, col, font)
 
 
 def point_grid(padding_x: int, padding_y: int, col: int) -> None:
