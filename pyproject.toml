@@ -1,12 +1,15 @@
 [project]
 name = "pyxel-utils"
-version = "0.1.2"
+version = "0.2.0"
 description = "Various utilities for game development with pyxel game engine."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "Reiner Gerecke" }]
 license = { file = "LICENSE" }
 dependencies = []
+
+[project.optional-dependencies]
+pymunk = ["pymunk"]
 
 [build-system]
 requires = ["hatchling"]

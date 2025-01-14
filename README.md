@@ -70,3 +70,20 @@ import pyxel_utils
 def draw():
     pyxel_utils.checkerboard(5, 9, 10)
 ```
+
+### `pymunk` debug draw
+
+![](examples/pymunk.png)
+
+Usage:
+
+```python
+from pyxel_utils.pymunk import DrawOptions
+
+...
+
+draw_options = DrawOptions(color=1)
+
+def draw():
+    space.debug_draw(draw_options)
+```
